@@ -1,0 +1,98 @@
+/* --------------
+ * Estilos global
+/* -------------- */
+
+a:link { 
+    text-decoration: none; 
+}
+
+.fe-hide {
+    display: none;
+}
+
+.fe-hidden {
+    visibility: hidden;
+}
+
+.fe-pointer {
+    cursor: pointer;
+}
+
+.fe-left {
+    float: left;
+}
+
+.fe-right {
+    float: right;
+}
+
+.fe-center-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fe-center-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* ------------------------
+ * Estilos para o dashboard
+/* ------------------------ */
+
+.fe-icone-dashboard {
+    position: absolute;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.fe-logo-dashboard {
+    position: relative;
+    width: 125px;
+    margin-left: 63px;
+}
+
+
+/* ---------------------
+ * Estilos para o perfil
+/* --------------------- */
+
+.fe-logo-perfil {
+    position: relative;
+    width: 125px;
+    margin-left: 63px;
+    top: -7px;
+}
+
+.fe-foto {
+    width: 160px;
+    height: 160px;
+    margin-top: 40%;
+    border-radius: 50%;
+    border: 8px solid #978b7b;
+}
+
+.fe-menu-perfil-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .fe-logo-perfil {
+        margin-left: 0;
+    }
+    .fe-menu-perfil-mobile {
+        display: block;
+        background-color: #f4f3ef;
+        border-bottom: 1px solid #cfcfca;
+    }
+    .fe-menu-perfil-mobile span {
+        background-color: #66615b !important;
+    }
+    .fe-foto {
+        margin-top: 12%;
+    }
+}

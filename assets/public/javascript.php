@@ -38,7 +38,7 @@
 <script src="../../assets/js/jquery-jvectormap.js"></script>
 
 <!-- Plug-in do Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxzHbOyAX8iURfjI9KCfny7-91Kaq0yD4"></script>
 
 <!-- Plugin do Assistente -->
 <script src="../../assets/js/jquery.bootstrap.wizard.min.js"></script>

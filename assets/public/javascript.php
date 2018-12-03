@@ -81,8 +81,6 @@
         $("html").removeClass("nav-open");
         mobile_menu_visible = 0;
 
-        $layer.removeClass("visible");
-
         setTimeout(function() {
             $layer.remove();
             $toggle.removeClass("toggled");
@@ -114,8 +112,16 @@
                 scrollTop: $(target).offset().top
             }, 1800, function() {
                 location.hash = target;
+                          
+                $("html").removeClass("nav-open");
+                mobile_menu_visible = 0;
+
+                setTimeout(function() {
+                    $layer.remove();
+                    $toggle.removeClass("toggled");
+                }, 400);
             });
-            return true;
+            return false;
 		});
  
         $(window).scroll(function() {

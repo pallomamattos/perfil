@@ -116,3 +116,9 @@ a:focus,
 a:active {
     color: #824027;
 }
+
+
+
+.active {
+    left: -1px;
+}

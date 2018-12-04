@@ -67,7 +67,7 @@ a:link {
 
 .fe-ajuste-wrapper {
     margin-top: -35px;
-    height: 100% !important;
+    height: calc(100% - 1px) !important;
 }
 
 .fe-remove-logo {
@@ -103,6 +103,10 @@ a:link {
     }
 }
 
+.fe-main-perfil {
+    margin-top: -95px;
+}
+
 .nav-link {
     padding-top: 25px !important;
     margin-bottom: -24px !important;
@@ -121,4 +125,12 @@ li:not(.active) .nav-link p {
 
 li:not(.active) .nav-link:hover p {
     opacity: .8;
+}
+
+.fe-hr {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
 }

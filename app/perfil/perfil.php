@@ -72,7 +72,7 @@
     </nav>
 
     <!-- painel -->
-    <div class="main-panel">
+    <div class="main-panel fe-main-perfil">
         <!-- corpo -->
         <div class="content">
             <div class="container-fluid">
@@ -111,7 +111,7 @@
                             </a>
                         </div>
                     </section>
-                    <hr>
+                    <hr class="fe-hr">
 
                     <!-- experiências -->
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencias">
@@ -168,7 +168,7 @@
                         </div>
 
                     </section>
-                    <hr class="m-0">
+                    <hr class="fe-hr">
 
                     <!-- educação -->
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="educacao">
@@ -200,7 +200,7 @@
 
                         </div>
                     </section>
-                    <hr class="m-0">
+                    <hr class="fe-hr">
 
                     <!-- habilidades -->
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
@@ -260,9 +260,9 @@
                             </ul>
                         </div>
                     </section>
-                    <hr class="m-0">
+                    <hr class="fe-hr">
 
-                    <!-- interesses -->
+                    <!-- portfolio -->
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
                         <div class="my-auto">
                             <h2 class="mb-5">Interests</h2>
@@ -272,7 +272,7 @@
                             </p>
                         </div>
                     </section>
-                    <hr class="m-0">
+                    <hr class="fe-hr">
 
                     <!-- certificações -->
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certificacoes">
@@ -300,7 +300,7 @@
                                     <sup>rd</sup> Place - James Buchanan High School - Hackathon 2005</li>
                             </ul>
                         </div>
-                    </section>   
+                    </section>
                 </div>
             </div>
         </div>

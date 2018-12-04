@@ -110,7 +110,7 @@
 
             $("html, body").stop().animate({
                 scrollTop: $(target).offset().top
-            }, 1900, function() {
+            }, 1000, function() {
                 location.hash = target;
                           
                 $("html").removeClass("nav-open");
@@ -119,7 +119,7 @@
                 setTimeout(function() {
                     $layer.remove();
                     $toggle.removeClass("toggled");
-                }, 1900);
+                }, 1000);
             });
             return false;
 		});

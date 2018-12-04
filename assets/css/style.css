@@ -1,5 +1,5 @@
 /* --------------
- * Estilos global
+ * estilos global
 /* -------------- */
 
 a:link { 
@@ -38,9 +38,13 @@ a:link {
     transform: translateX(-50%);
 }
 
+.active {
+    left: -1px;
+}
+
 
 /* ------------------------
- * Estilos para o dashboard
+ * estilos para o dashboard
 /* ------------------------ */
 
 .fe-icone-dashboard {
@@ -58,20 +62,25 @@ a:link {
 
 
 /* ---------------------
- * Estilos para o perfil
+ * estilos para o perfil
 /* --------------------- */
 
-.fe-logo-perfil {
-    position: relative;
-    width: 125px;
-    margin-left: 63px;
-    top: -7px;
+.fe-ajuste-wrapper {
+    margin-top: -35px;
+    height: 100% !important;
+}
+
+.fe-remove-logo {
+    height: 0 !important;
+}
+
+.fe-remove-logo::before {
+    display: none;
 }
 
 .fe-foto {
     width: 160px;
     height: 160px;
-    margin-top: 40%;
     border-radius: 50%;
     border: 8px solid #978b7b;
 }
@@ -92,7 +101,24 @@ a:link {
     .fe-menu-perfil-mobile span {
         background-color: #66615b !important;
     }
-    .fe-foto {
-        margin-top: 12%;
-    }
+}
+
+.nav-link {
+    padding-top: 25px !important;
+    margin-bottom: -24px !important;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li .nav-link p {
+    font-size: 13px;
+}
+
+li:not(.active) .nav-link p {
+    opacity: .4;
+}
+
+li:not(.active) .nav-link:hover p {
+    opacity: .8;
 }

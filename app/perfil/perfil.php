@@ -12,49 +12,46 @@
     <div class="sidebar" data-background-color="brown" data-active-color="danger">
         <!-- dica 1: você pode alterar a cor do fundo da barra lateral usando: data-background-color="white | brown" -->
         <!-- dica 2: você pode mudar a cor do botão ativo usando: data-active-color="primary | info | success | warning | danger" -->
-        <!-- logo -->
-        <div class="logo">
-            <a class="simple-text logo-normal">
-                <img class="fe-logo-perfil" src="../../assets/img/perfil/logo-perfil.png" alt="perfil">
-            </a>
-        </div>
+        <div class="logo fe-remove-logo"></div>
         <!-- menu -->
-        <div class="sidebar-wrapper">
-            <!-- foto do perfil -->
-            <img class="fe-foto fe-center-x" src="../../assets/img/perfil/usuario/felipe.png">
-            <!-- menu do perfil -->
-            <ul class="nav fe-fechar-menu-mobile">
-                <li class="active">
-                    <a style="padding-top: 20px;" class="nav-link js-scroll-trigger" href="#sobre">
-                        <p style="text-align: center; margin-bottom: -24px;">Sobre</p>
-                    </a>
-                </li>
-                <li>
-                    <a  style="padding-top: 20px;" class="nav-link js-scroll-trigger" href="#experiencias">
-                        <p style="text-align: center; margin-bottom: -24px;">Experiências</p>
-                    </a>
-                </li>
-                <li>
-                    <a  style="padding-top: 20px;" class="nav-link js-scroll-trigger" href="#educacao">
-                        <p style="text-align: center; margin-bottom: -24px;">Educação</p>
-                    </a>
-                </li>
-                <li>
-                    <a  style="padding-top: 20px;" class="nav-link js-scroll-trigger" href="#habilidades">
-                        <p style="text-align: center; margin-bottom: -24px;">Habilidades</p>
-                    </a>
-                </li>
-                <li>
-                    <a  style="padding-top: 20px;" class="nav-link js-scroll-trigger" href="#portfolio">
-                        <p style="text-align: center; margin-bottom: -24px;">Portfólio</p>
-                    </a>
-                </li>
-                <li>
-                    <a  style="padding-top: 20px;" class="nav-link js-scroll-trigger" href="#certificacoes">
-                        <p style="text-align: center; margin-bottom: -24px;">Certificações</p>
-                    </a>
-                </li>
-            </ul>
+        <div class="sidebar-wrapper fe-ajuste-wrapper">
+            <div class="fe-center-y">
+                <!-- foto do perfil -->
+                <img class="fe-foto fe-center-x" src="../../assets/img/perfil/usuario/felipe.png">
+                <!-- menu do perfil -->
+                <ul class="nav fe-fechar-menu-mobile">
+                    <li class="active">
+                        <a class="nav-link js-scroll-trigger" href="#sobre">
+                            <p>Sobre</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" href="#experiencias">
+                            <p>Experiências</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" href="#educacao">
+                            <p>Educação</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" href="#habilidades">
+                            <p>Habilidades</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">
+                            <p>Portfólio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" href="#certificacoes">
+                            <p>Certificações</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -81,42 +78,40 @@
             <div class="container-fluid">
                 <div class="row">
                     <!-- sobre -->
-                    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="sobre">
-                        <div class="my-auto">
-                            <!-- nome -->
-                            <h1 class="mb-0">
-                                <span class="text-primary">Felipe</span> Sales
-                            </h1>
-                            <!-- endereço -->
-                            <div class="subheading mb-5">Rua Varandas da Serra, nº 185 · Novo Horizonte, Salvador - BA · CEP: 41218-168 · (71) 99140-2371 ·
-                                <a href="mailto:felipesales007@hotmail.com" data-toggle="tooltip" data-placement="top" title="Enviar uma mensagem">felipesales007@hotmail.com</a>
-                            </div>
-                            <!-- frase -->
-                            <p class="lead mb-5">
-                                Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.
-                                <br><a href="#" class="text-primary fe-right">Afonso Allan</a>
-                            </p>
-                            <!-- social -->
-                            <div class="social-icons">
-                                <a href="https://www.linkedin.com/in/felipesales007" target="_blank">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://github.com/felipesales007" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.facebook.com/felipesales007" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://www.instagram.com/felipesales007/" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="https://www.youtube.com/user/FelipeSales007/videos" target="_blank">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
+                    <section class="resume-section" id="sobre">
+                        <!-- nome -->
+                        <h1>
+                            <span class="text-primary">Felipe</span> Sales
+                        </h1>
+                        <!-- endereço -->
+                        <div class="subheading">Rua Varandas da Serra, nº 185 · Novo Horizonte, Salvador - BA · CEP: 41218-168 · (71) 99140-2371 ·
+                            <a href="mailto:felipesales007@hotmail.com" data-toggle="tooltip" data-placement="top" title="Enviar uma mensagem">felipesales007@hotmail.com</a>
+                        </div>
+                        <!-- frase -->
+                        <p class="lead">
+                            Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.
+                            <br><a href="#" class="text-primary fe-right">Afonso Allan</a>
+                        </p>
+                        <!-- social -->
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/felipesales007" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/felipesales007" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/felipesales007" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/felipesales007/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/user/FelipeSales007/videos" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
                     </section>
-                    <hr class="m-0">
+                    <hr>
 
                     <!-- experiências -->
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencias">

@@ -21,32 +21,32 @@
                 <!-- menu do perfil -->
                 <ul class="nav fe-fechar-menu-mobile">
                     <li class="active">
-                        <a class="nav-link js-scroll-trigger" href="#sobre">
+                        <a class="fe-nav-link js-scroll-trigger" href="#sobre">
                             <p>Sobre</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link js-scroll-trigger" href="#experiencias">
+                        <a class="fe-nav-link js-scroll-trigger" href="#experiencias">
                             <p>Experiências</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link js-scroll-trigger" href="#educacao">
+                        <a class="fe-nav-link js-scroll-trigger" href="#educacao">
                             <p>Educação</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link js-scroll-trigger" href="#habilidades">
+                        <a class="fe-nav-link js-scroll-trigger" href="#habilidades">
                             <p>Habilidades</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">
+                        <a class="fe-nav-link js-scroll-trigger" href="#portfolio">
                             <p>Portfólio</p>
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link js-scroll-trigger" href="#certificacoes">
+                        <a class="fe-nav-link js-scroll-trigger" href="#certificacoes">
                             <p>Certificações</p>
                         </a>
                     </li>
@@ -78,7 +78,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <!-- sobre -->
-                    <section class="resume-section" id="sobre">
+                    <section class="fe-resume-section" id="sobre">
                         <!-- nome -->
                         <h1>
                             <span class="text-primary">Felipe</span> Sales
@@ -114,7 +114,7 @@
                     <hr class="fe-hr">
 
                     <!-- experiências -->
-                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencias">
+                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="experiencias">
                         <div class="my-auto">
                             <h2 class="mb-5">Experience</h2>
 
@@ -171,7 +171,7 @@
                     <hr class="fe-hr">
 
                     <!-- educação -->
-                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="educacao">
+                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="educacao">
                         <div class="my-auto">
                             <h2 class="mb-5">Education</h2>
 
@@ -203,7 +203,7 @@
                     <hr class="fe-hr">
 
                     <!-- habilidades -->
-                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
+                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
                         <div class="my-auto">
                             <h2 class="mb-5">Skills</h2>
 
@@ -263,7 +263,7 @@
                     <hr class="fe-hr">
 
                     <!-- portfolio -->
-                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
                         <div class="my-auto">
                             <h2 class="mb-5">Interests</h2>
                             <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
@@ -275,7 +275,7 @@
                     <hr class="fe-hr">
 
                     <!-- certificações -->
-                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certificacoes">
+                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="certificacoes">
                         <div class="my-auto">
                             <h2 class="mb-5">Awards &amp; Certifications</h2>
                             <ul class="fa-ul mb-0">

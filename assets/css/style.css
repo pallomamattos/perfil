@@ -6,6 +6,10 @@ a:link {
     text-decoration: none; 
 }
 
+.active {
+    left: -1px;
+}
+
 .fe-hide {
     display: none;
 }
@@ -38,10 +42,6 @@ a:link {
     transform: translateX(-50%);
 }
 
-.active {
-    left: -1px;
-}
-
 
 /* ------------------------
  * estilos para o dashboard
@@ -72,6 +72,7 @@ a:link {
 
 .fe-remove-logo {
     height: 0 !important;
+    top: -50px;
 }
 
 .fe-remove-logo::before {
@@ -82,7 +83,10 @@ a:link {
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    border: 8px solid #978b7b;
+    border: 8px solid #887d6e;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
 }
 
 .fe-menu-perfil-mobile {
@@ -90,9 +94,6 @@ a:link {
 }
 
 @media only screen and (max-width: 992px) {
-    .fe-logo-perfil {
-        margin-left: 0;
-    }
     .fe-menu-perfil-mobile {
         display: block;
         background-color: #f4f3ef;
@@ -101,13 +102,16 @@ a:link {
     .fe-menu-perfil-mobile span {
         background-color: #66615b !important;
     }
+    section.fe-resume-section {
+        padding: 16% .01rem 16% .01rem !important;
+    }
 }
 
 .fe-main-perfil {
     margin-top: -95px;
 }
 
-.nav-link {
+.fe-nav-link {
     padding-top: 25px !important;
     margin-bottom: -24px !important;
     font-weight: bolder;
@@ -115,15 +119,15 @@ a:link {
     text-transform: uppercase;
 }
 
-li .nav-link p {
+li .fe-nav-link p {
     font-size: 13px;
 }
 
-li:not(.active) .nav-link p {
+li:not(.active) .fe-nav-link p {
     opacity: .4;
 }
 
-li:not(.active) .nav-link:hover p {
+li:not(.active) .fe-nav-link:hover p {
     opacity: .8;
 }
 
@@ -133,4 +137,9 @@ li:not(.active) .nav-link:hover p {
     border: 0;
     background-color: rgba(0, 0, 0, 0.1);
     height: 1px;
+}
+
+section.fe-resume-section {
+    padding: 16% 1.7rem 16% 1.7rem;
+    min-height: 100vh;
 }

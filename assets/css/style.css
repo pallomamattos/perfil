@@ -65,6 +65,27 @@ a:link {
  * estilos para o perfil
 /* --------------------- */
 
+.fe-body-perfil::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+.fe-body-perfil::-webkit-scrollbar-track-piece {
+    background-color: #f4f3ef;
+}
+  
+.fe-body-perfil::-webkit-scrollbar-thumb:vertical,
+.fe-body-perfil::-webkit-scrollbar-thumb:horizontal {
+    background-color: #0000002a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.fe-body-perfil::-webkit-scrollbar-thumb:vertical:hover,
+.fe-body-perfil::-webkit-scrollbar-thumb:horizontal:hover { 
+    background-color: #00000050;
+}
+
 .fe-ajuste-wrapper {
     margin-top: -35px;
     height: calc(100% - 1px) !important;

@@ -7,7 +7,7 @@
     <title>Perfil</title>
 </head>
 
-<body>
+<body class="fe-body-perfil">
     <!-- menu lateral -->
     <div class="sidebar" data-background-color="brown" data-active-color="danger">
         <!-- dica 1: você pode alterar a cor do fundo da barra lateral usando: data-background-color="white | brown" -->

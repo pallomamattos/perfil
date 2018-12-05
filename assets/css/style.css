@@ -140,6 +140,45 @@ li:not(.active) .fe-nav-link:hover p {
 }
 
 section.fe-resume-section {
-    padding: 16% 1.7rem 16% 1.7rem;
+    display: flex;
+	align-items: center;
+    margin: 0 1.7rem 0 1.7rem;
     min-height: 100vh;
+}
+
+.fe-cor-tema {
+    color: #66615b;
+}
+
+.fe-social-icons a {
+    display: inline-block;
+    height: 2.3rem;
+    width: 2.3rem;
+    color: #868e96;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-right: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+[title="LinkedIn"]:hover {
+    color: #0077b5;
+}
+
+[title="GitHub"]:hover {
+    color: #24292e;
+}
+
+[title="Facebook"]:hover {
+    color: #4267b2;
+}
+
+[title="Instagram"]:hover {
+    color: #6e423a;
+}
+
+[title="YouTube"]:hover {
+    color: #ff0000;
 }

@@ -21,32 +21,32 @@
                 <!-- menu do perfil -->
                 <ul class="nav fe-fechar-menu-mobile">
                     <li class="active">
-                        <a class="fe-nav-link js-scroll-trigger" href="#sobre">
+                        <a class="fe-nav-link fe-scroll-trigger" href="#sobre">
                             <p>Sobre</p>
                         </a>
                     </li>
                     <li>
-                        <a class="fe-nav-link js-scroll-trigger" href="#experiencias">
+                        <a class="fe-nav-link fe-scroll-trigger" href="#experiencias">
                             <p>Experiências</p>
                         </a>
                     </li>
                     <li>
-                        <a class="fe-nav-link js-scroll-trigger" href="#educacao">
+                        <a class="fe-nav-link fe-scroll-trigger" href="#educacao">
                             <p>Educação</p>
                         </a>
                     </li>
                     <li>
-                        <a class="fe-nav-link js-scroll-trigger" href="#habilidades">
+                        <a class="fe-nav-link fe-scroll-trigger" href="#habilidades">
                             <p>Habilidades</p>
                         </a>
                     </li>
                     <li>
-                        <a class="fe-nav-link js-scroll-trigger" href="#portfolio">
+                        <a class="fe-nav-link fe-scroll-trigger" href="#portfolio">
                             <p>Portfólio</p>
                         </a>
                     </li>
                     <li>
-                        <a class="fe-nav-link js-scroll-trigger" href="#certificacoes">
+                        <a class="fe-nav-link fe-scroll-trigger" href="#certificacoes">
                             <p>Certificações</p>
                         </a>
                     </li>
@@ -79,43 +79,45 @@
                 <div class="row">
                     <!-- sobre -->
                     <section class="fe-resume-section" id="sobre">
-                        <!-- nome -->
-                        <h1>
-                            <span class="text-primary">Felipe</span> Sales
-                        </h1>
-                        <!-- endereço -->
-                        <div class="subheading">Rua Varandas da Serra, nº 185 · Novo Horizonte, Salvador - BA · CEP: 41218-168 · (71) 99140-2371 ·
-                            <a href="mailto:felipesales007@hotmail.com" data-toggle="tooltip" data-placement="top" title="Enviar uma mensagem">felipesales007@hotmail.com</a>
-                        </div>
-                        <!-- frase -->
-                        <p class="lead">
-                            Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.
-                            <br><a href="#" class="text-primary fe-right">Afonso Allan</a>
-                        </p>
-                        <!-- social -->
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/felipesales007" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://github.com/felipesales007" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://www.facebook.com/felipesales007" target="_blank">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://www.instagram.com/felipesales007/" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.youtube.com/user/FelipeSales007/videos" target="_blank">
-                                <i class="fab fa-youtube"></i>
-                            </a>
+                        <div>
+                            <!-- nome -->
+                            <h1><span class="fe-cor-tema">Felipe</span> Sales</h1>
+                            <!-- endereço -->
+                            <div class="subheading">Rua Varandas da Serra, nº 185 · Novo Horizonte, Salvador - BA · CEP: 41218-168 · (71) 99140-2371 ·
+                                <a href="mailto:felipesales007@hotmail.com" data-toggle="tooltip" data-placement="top" title="Enviar uma mensagem">felipesales007@hotmail.com</a>
+                            </div>
+                            <br><br>
+                            <!-- frase -->
+                            <p class="lead">
+                                Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.
+                                <br><a href="#" class="fe-cor-tema fe-right">Afonso Allan</a>
+                            </p>
+                            <br><br>
+                            <!-- social -->
+                            <div class="fe-social-icons">
+                                <a title="LinkedIn" href="https://www.linkedin.com/in/felipesales007" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a title="GitHub" href="https://github.com/felipesales007" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a title="Facebook" href="https://www.facebook.com/felipesales007" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a title="Instagram" href="https://www.instagram.com/felipesales007/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a title="YouTube" href="https://www.youtube.com/user/FelipeSales007/videos" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
                         </div>
                     </section>
                     <hr class="fe-hr">
 
                     <!-- experiências -->
                     <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="experiencias">
-                        <div class="my-auto">
+                        <div>
                             <h2 class="mb-5">Experience</h2>
 
                             <div class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -126,7 +128,7 @@
                                         User generated content in real-time will have multiple touchpoints for offshoring.</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">March 2013 - Present</span>
+                                    <span class="fe-cor-tema">March 2013 - Present</span>
                                 </div>
                             </div>
 
@@ -138,7 +140,7 @@
                                         the loop on focusing solely on the bottom line.</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">December 2011 - March 2013</span>
+                                    <span class="fe-cor-tema">December 2011 - March 2013</span>
                                 </div>
                             </div>
 
@@ -150,7 +152,7 @@
                                         start-up mentality to derive convergence on cross-platform integration.</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">July 2010 - December 2011</span>
+                                    <span class="fe-cor-tema">July 2010 - December 2011</span>
                                 </div>
                             </div>
 
@@ -161,7 +163,7 @@
                                     <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">September 2008 - June 2010</span>
+                                    <span class="fe-cor-tema">September 2008 - June 2010</span>
                                 </div>
                             </div>
 
@@ -183,7 +185,7 @@
                                     <p>GPA: 3.23</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">August 2006 - May 2010</span>
+                                    <span class="fe-cor-tema">August 2006 - May 2010</span>
                                 </div>
                             </div>
 
@@ -194,7 +196,7 @@
                                     <p>GPA: 3.56</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">August 2002 - May 2006</span>
+                                    <span class="fe-cor-tema">August 2002 - May 2006</span>
                                 </div>
                             </div>
 

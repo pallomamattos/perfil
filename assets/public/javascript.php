@@ -101,7 +101,7 @@
 
     // função para animar o scroll
     $(document).ready(function() {
-        var scrollLink = $(".js-scroll-trigger");
+        var scrollLink = $(".fe-scroll-trigger");
 
 		scrollLink.bind("click", function(e) {
             e.preventDefault();

@@ -93,20 +93,6 @@ a:link {
     display: none;
 }
 
-@media only screen and (max-width: 992px) {
-    .fe-menu-perfil-mobile {
-        display: block;
-        background-color: #f4f3ef;
-        border-bottom: 1px solid #cfcfca;
-    }
-    .fe-menu-perfil-mobile span {
-        background-color: #66615b !important;
-    }
-    section.fe-resume-section {
-        padding: 16% .01rem 16% .01rem !important;
-    }
-}
-
 .fe-main-perfil {
     margin-top: -95px;
 }
@@ -142,12 +128,47 @@ li:not(.active) .fe-nav-link:hover p {
 section.fe-resume-section {
     display: flex;
 	align-items: center;
-    margin: 0 1.7rem 0 1.7rem;
+    margin: 0 30% 0 1.7rem;
     min-height: 100vh;
 }
 
 .fe-cor-tema {
     color: #66615b;
+}
+
+.fe-texto-flex {
+    display: flex;
+}
+
+.fe-texto-upper,
+.fe-texto-lower,
+.fe-texto-default {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.35rem;
+}
+
+.fe-texto-lower {
+    text-transform: lowercase;
+}
+
+.fe-texto-default {
+    text-transform: none;
+}
+
+.fe-texto-upper .fa-map-marked-alt {
+    font-size: 17px;
+    margin-right: -5px;
+}
+
+p.fe-frase-perfil {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+p.fe-frase-perfil i {
+    margin-top: 2px
 }
 
 .fe-social-icons a {
@@ -181,4 +202,43 @@ section.fe-resume-section {
 
 [title="YouTube"]:hover {
     color: #ff0000;
+}
+
+[title="E-mail"]:hover {
+    color: #006dc3;
+}
+
+[title="Twitter"]:hover {
+    color: #55acee;
+}
+
+@media only screen and (max-width: 992px) {
+    .fe-menu-perfil-mobile {
+        display: block;
+        background-color: #f4f3ef;
+        border-bottom: 1px solid #cfcfca;
+    }
+    .fe-menu-perfil-mobile span {
+        background-color: #66615b !important;
+    }
+    section.fe-resume-section {
+        margin: 0 0.1rem 0 0.1rem;
+        padding-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .fe-texto-flex-mobile {
+        display: flex;
+    }
+    .fe-endereco-perfil-mobile {
+        margin-left: 29px;
+        transition: all .5s ease-in-out;
+    }
+    .fe-ponto-flex {
+        display: none;
+    }
+    .fe-social-icons a {
+        margin-right: .06rem;
+    }
 }

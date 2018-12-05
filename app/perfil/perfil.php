@@ -46,8 +46,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="fe-nav-link fe-scroll-trigger" href="#certificacoes">
-                            <p>Certificações</p>
+                        <a class="fe-nav-link fe-scroll-trigger" href="#contato">
+                            <p>Contato</p>
                         </a>
                     </li>
                 </ul>
@@ -66,7 +66,9 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <div class="navbar-brand fe-logo-nome">Felipe Sales</div>
+                <div class="navbar-brand fe-logo-nome">
+                    <a class="fe-cor-tema fe-scroll-trigger" href="#sobre">Felipe Sales</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -81,18 +83,35 @@
                     <section class="fe-resume-section" id="sobre">
                         <div>
                             <!-- nome -->
-                            <h1><span class="fe-cor-tema">Felipe</span> Sales</h1>
+                            <h1><span class="fe-cor-tema fe-texto-flex-mobile">Felipe</span> Sales</h1>
                             <!-- endereço -->
-                            <div class="subheading">Rua Varandas da Serra, nº 185 · Novo Horizonte, Salvador - BA · CEP: 41218-168 · (71) 99140-2371 ·
-                                <a href="mailto:felipesales007@hotmail.com" data-toggle="tooltip" data-placement="top" title="Enviar uma mensagem">felipesales007@hotmail.com</a>
-                            </div>
-                            <br><br>
-                            <!-- frase -->
-                            <p class="lead">
-                                Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.
-                                <br><a href="#" class="fe-cor-tema fe-right">Afonso Allan</a>
+                            <p class="fe-texto-upper">
+                                <i class="fas fa-map-marked-alt"></i>&ensp;
+                                Rua Varandas da Serra, nº 185
+                                <span class="fe-ponto-flex"> · </span>
+                                <span class="fe-texto-flex-mobile fe-endereco-perfil-mobile">Novo Horizonte, Salvador - BA</span>
+                                <span class="fe-ponto-flex"> · </span>
+                                <span class="fe-texto-flex-mobile fe-endereco-perfil-mobile">CEP: 41218-168</span>
+                                <p>
+                                    <i class="fas fa-phone fe-cor-tema"></i>&ensp;
+                                    <span class="fe-cor-tema fe-texto-lower">(71) 99140-2371</span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-at fe-cor-tema"></i>&ensp;
+                                    <a href="#contato" class="fe-cor-tema fe-texto-lower fe-scroll-trigger" data-toggle="tooltip" data-placement="right" title="Enviar uma mensagem">
+                                        felipesales007@hotmail.com&ensp;
+                                    </a>
+                                </p>
                             </p>
-                            <br><br>
+                            <br>
+                            <!-- frase -->
+                            <p class="fe-frase-perfil">
+                                Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.
+                                <br>
+                                <a href="#" target="_blank" class="fe-cor-tema fe-texto-default fe-right" data-toggle="tooltip" data-placement="bottom" title="Conheça o autor">- Afonso Allan</a>
+                                <i class="far fa-edit fe-cor-tema fe-right"></i>&ensp;
+                            </p>
+                            <br>
                             <!-- social -->
                             <div class="fe-social-icons">
                                 <a title="LinkedIn" href="https://www.linkedin.com/in/felipesales007" target="_blank">
@@ -104,11 +123,17 @@
                                 <a title="Facebook" href="https://www.facebook.com/felipesales007" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
+                                <a title="Twitter" href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
                                 <a title="Instagram" href="https://www.instagram.com/felipesales007/" target="_blank">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                                 <a title="YouTube" href="https://www.youtube.com/user/FelipeSales007/videos" target="_blank">
                                     <i class="fab fa-youtube"></i>
+                                </a>
+                                <a title="E-mail" href="#contato" class="fe-scroll-trigger">
+                                    <i class="fas fa-envelope"></i>
                                 </a>
                             </div>
                         </div>
@@ -116,21 +141,17 @@
                     <hr class="fe-hr">
 
                     <!-- experiências -->
-                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="experiencias">
+                    <section class="fe-resume-section" id="experiencias">
                         <div>
-                            <h2 class="mb-5">Experience</h2>
+                            <h2>Experience</h2>
 
-                            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                                <div class="resume-content mr-auto">
-                                    <h3 class="mb-0">Senior Web Developer</h3>
-                                    <div class="subheading mb-3">Intelitec Solutions</div>
+                            
+                                    <h3>Senior Web Developer</h3>
+                                    <div class="subheading">Intelitec Solutions</div>
                                     <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
                                         User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                                </div>
-                                <div class="resume-date text-md-right">
+                                
                                     <span class="fe-cor-tema">March 2013 - Present</span>
-                                </div>
-                            </div>
 
                             <div class="resume-item d-flex flex-column flex-md-row mb-5">
                                 <div class="resume-content mr-auto">
@@ -252,13 +273,25 @@
                             <div class="subheading mb-3">Workflow</div>
                             <ul class="fa-ul mb-0">
                                 <li>
-                                    <i class="fa-li fa fa-check"></i> Mobile-First, Responsive Design</li>
+                                    <i class="fa-li fa fa-check text-success"></i> Mobile-First, Responsive Design</li>
                                 <li>
-                                    <i class="fa-li fa fa-check"></i> Cross Browser Testing &amp; Debugging</li>
+                                    <i class="fa-li fa fa-check text-success"></i> Cross Browser Testing &amp; Debugging</li>
                                 <li>
-                                    <i class="fa-li fa fa-check"></i> Cross Functional Teams</li>
+                                    <i class="fa-li fa fa-check text-success"></i> Cross Functional Teams</li>
                                 <li>
-                                    <i class="fa-li fa fa-check"></i> Agile Development &amp; Scrum</li>
+                                    <i class="fa-li fa fa-check text-success"></i> Agile Development &amp; Scrum</li>
+                            </ul>
+
+                            <div class="subheading mb-3">Certificados</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <i class="fa-li fa fa-trophy text-warning"></i> Mobile-First, Responsive Design</li>
+                                <li>
+                                    <i class="fa-li fa fa-trophy text-warning"></i> Cross Browser Testing &amp; Debugging</li>
+                                <li>
+                                    <i class="fa-li fa fa-trophy text-warning"></i> Cross Functional Teams</li>
+                                <li>
+                                    <i class="fa-li fa fa-trophy text-warning"></i> Agile Development &amp; Scrum</li>
                             </ul>
                         </div>
                     </section>
@@ -276,10 +309,10 @@
                     </section>
                     <hr class="fe-hr">
 
-                    <!-- certificações -->
-                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="certificacoes">
+                    <!-- contato -->
+                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="contato">
                         <div class="my-auto">
-                            <h2 class="mb-5">Awards &amp; Certifications</h2>
+                            <h2 class="mb-5">Contato</h2>
                             <ul class="fa-ul mb-0">
                                 <li>
                                     <i class="fa-li fa fa-trophy text-warning"></i> Google Analytics Certified Developer</li>

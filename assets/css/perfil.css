@@ -34,10 +34,7 @@ h3 {
     font-size: 2rem;
 }
 
-p.lead {
-    font-size: 1.15rem;
-    font-weight: 400;
-}
+
 
 .subheading {
     text-transform: uppercase;
@@ -50,11 +47,6 @@ p.lead {
 
 .dev-icons {
     font-size: 3rem;
-}
-
-
-a {
-    color: #BD5D38;
 }
 
 a:hover,

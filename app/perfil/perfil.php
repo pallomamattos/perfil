@@ -80,7 +80,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <!-- sobre -->
-                    <section class="fe-resume-section" id="sobre">
+                    <section class="fe-perfil-section" id="sobre">
                         <div>
                             <!-- nome -->
                             <h1><span class="fe-cor-tema fe-texto-flex-mobile">Felipe</span> Sales</h1>
@@ -141,7 +141,7 @@
                     <hr class="fe-hr">
 
                     <!-- experiências -->
-                    <section class="fe-resume-section" id="experiencias">
+                    <section class="fe-perfil-section" id="experiencias">
                         <div>
                             <h2>Experience</h2>
 
@@ -153,37 +153,37 @@
                                 
                                     <span class="fe-cor-tema">March 2013 - Present</span>
 
-                            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                                <div class="resume-content mr-auto">
+                            <div class="perfil-item d-flex flex-column flex-md-row mb-5">
+                                <div class="perfil-content mr-auto">
                                     <h3 class="mb-0">Web Developer</h3>
                                     <div class="subheading mb-3">Intelitec Solutions</div>
                                     <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close
                                         the loop on focusing solely on the bottom line.</p>
                                 </div>
-                                <div class="resume-date text-md-right">
+                                <div class="perfil-date text-md-right">
                                     <span class="fe-cor-tema">December 2011 - March 2013</span>
                                 </div>
                             </div>
 
-                            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                                <div class="resume-content mr-auto">
+                            <div class="perfil-item d-flex flex-column flex-md-row mb-5">
+                                <div class="perfil-content mr-auto">
                                     <h3 class="mb-0">Junior Web Designer</h3>
                                     <div class="subheading mb-3">Shout! Media Productions</div>
                                     <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the
                                         start-up mentality to derive convergence on cross-platform integration.</p>
                                 </div>
-                                <div class="resume-date text-md-right">
+                                <div class="perfil-date text-md-right">
                                     <span class="fe-cor-tema">July 2010 - December 2011</span>
                                 </div>
                             </div>
 
-                            <div class="resume-item d-flex flex-column flex-md-row">
-                                <div class="resume-content mr-auto">
+                            <div class="perfil-item d-flex flex-column flex-md-row">
+                                <div class="perfil-content mr-auto">
                                     <h3 class="mb-0">Web Design Intern</h3>
                                     <div class="subheading mb-3">Shout! Media Productions</div>
                                     <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                                 </div>
-                                <div class="resume-date text-md-right">
+                                <div class="perfil-date text-md-right">
                                     <span class="fe-cor-tema">September 2008 - June 2010</span>
                                 </div>
                             </div>
@@ -194,29 +194,29 @@
                     <hr class="fe-hr">
 
                     <!-- educação -->
-                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="educacao">
+                    <section class="fe-perfil-section p-3 p-lg-5 d-flex flex-column" id="educacao">
                         <div class="my-auto">
                             <h2 class="mb-5">Education</h2>
 
-                            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                                <div class="resume-content mr-auto">
+                            <div class="perfil-item d-flex flex-column flex-md-row mb-5">
+                                <div class="perfil-content mr-auto">
                                     <h3 class="mb-0">University of Colorado Boulder</h3>
                                     <div class="subheading mb-3">Bachelor of Science</div>
                                     <div>Computer Science - Web Development Track</div>
                                     <p>GPA: 3.23</p>
                                 </div>
-                                <div class="resume-date text-md-right">
+                                <div class="perfil-date text-md-right">
                                     <span class="fe-cor-tema">August 2006 - May 2010</span>
                                 </div>
                             </div>
 
-                            <div class="resume-item d-flex flex-column flex-md-row">
-                                <div class="resume-content mr-auto">
+                            <div class="perfil-item d-flex flex-column flex-md-row">
+                                <div class="perfil-content mr-auto">
                                     <h3 class="mb-0">James Buchanan High School</h3>
                                     <div class="subheading mb-3">Technology Magnet Program</div>
                                     <p>GPA: 3.56</p>
                                 </div>
-                                <div class="resume-date text-md-right">
+                                <div class="perfil-date text-md-right">
                                     <span class="fe-cor-tema">August 2002 - May 2006</span>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@
                     <hr class="fe-hr">
 
                     <!-- habilidades -->
-                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
+                    <section class="fe-perfil-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
                         <div class="my-auto">
                             <h2 class="mb-5">Skills</h2>
 
@@ -298,7 +298,7 @@
                     <hr class="fe-hr">
 
                     <!-- portfolio -->
-                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+                    <section class="fe-perfil-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
                         <div class="my-auto">
                             <h2 class="mb-5">Interests</h2>
                             <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
@@ -310,30 +310,72 @@
                     <hr class="fe-hr">
 
                     <!-- contato -->
-                    <section class="fe-resume-section p-3 p-lg-5 d-flex flex-column" id="contato">
-                        <div class="my-auto">
-                            <h2 class="mb-5">Contato</h2>
-                            <ul class="fa-ul mb-0">
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> Google Analytics Certified Developer</li>
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> Mobile Web Specialist - Google Certification</li>
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> 1
-                                    <sup>st</sup> Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> 1
-                                    <sup>st</sup> Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> 2
-                                    <sup>nd</sup> Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> 1
-                                    <sup>st</sup> Place - James Buchanan High School - Hackathon 2006</li>
-                                <li>
-                                    <i class="fa-li fa fa-trophy text-warning"></i> 3
-                                    <sup>rd</sup> Place - James Buchanan High School - Hackathon 2005</li>
-                            </ul>
+                    <section class="fe-perfil-section-contato" id="contato">
+                        <div>
+                            <h2>Contato</h2>
+                            <div class="col-md-6">
+                                <div class="card fe-card-contato">
+                                    <form id="fe-perfil-enviar-mensagem" action="" method="" novalidate="">
+                                        <div class="card-header">
+                                            <h4 class="card-title">Mensagem<i class="ti-email pull-right"></i></h4>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="form-group">
+                                                <label class="control-label">
+                                                    Seu nome <star>*</star>
+                                                </label>
+                                                <input class="form-control" name="nome-visitante" type="text" required="true" autocomplete="on">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">
+                                                    Seu e-mail <star>*</star>
+                                                </label>
+                                                <input class="form-control" name="email-visitante" type="text" required="true" email="true" autocomplete="on">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">
+                                                    Motivo do contato <star>*</star>
+                                                </label>
+                                                <select class="selectpicker" data-style="btn btn-info btn-block" title="Selecione" data-size="7">
+                                                    <option value="id">Trabalho</option>
+                                                    <option value="ms">Elogio</option>
+                                                    <option value="ms">Critica</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">
+                                                    Mensagem <star>*</star>
+                                                </label>
+                                                <textarea class="form-control" name="mensagem-visitante" required="true" autocomplete="off" rows="4"></textarea>
+                                            </div>
+                                            <div class="category"><star>*</star> Campos obrigatórios</div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button type="submit" class="btn btn-info btn-fill pull-right btn-rotate">
+                                                <span class="btn-label">
+	                                                <i class="ti-check"></i>
+	                                            </span>
+                                                Enviar mensagem
+                                            </button>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card fe-card-mapa">
+                                    <form id="loginFormValidation" action="" method="" novalidate="">
+                                        <div class="card-header text-left">
+                                            <h4 class="card-title text-info">
+                                                Local<i class="fa fa-map-marked-alt pull-right"></i>
+                                            </h4>
+                                        </div>
+                                        <div class="card-content">
+                                            <div id="map" class="fe-mapa"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </div>

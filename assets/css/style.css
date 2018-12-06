@@ -66,12 +66,12 @@ a:link {
 /* --------------------- */
 
 .fe-body-perfil::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
 }
   
 .fe-body-perfil::-webkit-scrollbar-track-piece {
-    background-color: #f4f3ef;
+    background-color: transparent;
 }
   
 .fe-body-perfil::-webkit-scrollbar-thumb:vertical,
@@ -146,11 +146,26 @@ li:not(.active) .fe-nav-link:hover p {
     height: 1px;
 }
 
-section.fe-resume-section {
+section.fe-perfil-section {
     display: flex;
 	align-items: center;
     margin: 0 30% 0 1.7rem;
     min-height: 100vh;
+}
+
+section.fe-perfil-section-contato {
+	align-items: center;
+    margin: 0 1.7rem 0 1.7rem;
+    min-height: 100vh;
+    padding-top: 10%;
+}
+
+section.fe-perfil-section-contato .fe-card-contato {
+    margin-left:  -15px;
+}
+
+section.fe-perfil-section-contato .fe-card-mapa {
+    margin-right:  -15px;
 }
 
 .fe-cor-tema {
@@ -233,6 +248,12 @@ p.fe-frase-perfil i {
     color: #55acee;
 }
 
+@media only screen and (max-width: 1500px) {
+    section.fe-perfil-section {
+        margin: 0 17% 0 1.7rem;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .fe-menu-perfil-mobile {
         display: block;
@@ -242,7 +263,7 @@ p.fe-frase-perfil i {
     .fe-menu-perfil-mobile span {
         background-color: #66615b !important;
     }
-    section.fe-resume-section {
+    section.fe-perfil-section {
         margin: 0 0.1rem 0 0.1rem;
         padding-top: 5rem;
     }
@@ -262,4 +283,15 @@ p.fe-frase-perfil i {
     .fe-social-icons a {
         margin-right: .06rem;
     }
+}
+
+
+
+
+
+.fe-mapa {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
 }

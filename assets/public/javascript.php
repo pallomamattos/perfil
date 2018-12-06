@@ -38,7 +38,7 @@
 <script src="../../assets/js/jquery-jvectormap.js"></script>
 
 <!-- Plug-in do Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxzHbOyAX8iURfjI9KCfny7-91Kaq0yD4"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxzHbOyAX8iURfjI9KCfny7-91Kaq0yD4&callback=initMap" async defer></script>
 
 <!-- Plugin do Assistente -->
 <script src="../../assets/js/jquery.bootstrap.wizard.min.js"></script>
@@ -60,7 +60,7 @@
 
 <!-- javascript by Developer -->
 <script>
-    // função para o abrir e fechar dos collapse do menu lateral
+    // para o abrir e fechar dos collapse do menu lateral
     $(".fe-menu-lateral").click(function() {
         if ($("div").hasClass("in")) {
             $(".in").collapse("hide");
@@ -69,14 +69,7 @@
         }
     });
 
-    /*
-    $(".fe-menu-aberto").click(function() {
-        $(".fe-menu-aberto").removeClass("open");
-        $(this).addClass("open");
-    });
-    */
-
-    // função para o fechar o menu lateral quando clica no menu mobile
+    // para o fechar o menu lateral quando clica no menu mobile
     $(".fe-fechar-menu-mobile").click(function() {
         $("html").removeClass("nav-open");
         mobile_menu_visible = 0;
@@ -87,19 +80,19 @@
         }, 400);
     });
 
-    // função para mostrar tooltip
+    // para mostrar tooltip
     $("*").mouseleave(function() {
         $('[data-toggle="tooltip"]').tooltip();
         $('[data-toggle="tooltip"]').tooltip("hide");
     });
 
-    // função para o marcar o link como ativo
+    // para o marcar o link como ativo
     $(".fe-fechar-menu-mobile li").click(function() {
         $(".fe-fechar-menu-mobile li.active").removeClass("active");
         $(this).addClass("active");
     });
 
-    // função para animar o scroll
+    // para animar o scroll em perfil
     $(document).ready(function() {
         var scrollLink = $(".fe-scroll-trigger");
 
@@ -138,7 +131,7 @@
         });
     }).scroll();
 
-    // função para copiar
+    // para copiar
     $(function() {
         $(".copiar").click(function() {
             $(".copiar").select();
@@ -151,4 +144,72 @@
             return false;
         });
     });
+
+    // validação
+    $().ready(function(){
+        $('#fe-perfil-enviar-mensagem').validate();
+    });
+
+    // para os selects personalizados
+    if($(".selectpicker").length != 0){
+        $(".selectpicker").selectpicker();
+    }
+
+    // para inicializar o Google Maps
+    var map, infoWindow;
+    var local = {lat: -12.939607, lng: -38.441598};
+    
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: local,
+            zoom: 13,
+        });
+
+        var marker = new google.maps.Marker({
+        position: local,
+        map: map,
+        title: 'Local da festa'
+        });
+
+        infoWindow = new google.maps.InfoWindow;
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                infoWindow.setPosition(pos);
+                infoWindow.setContent('Você está aqui');
+                infoWindow.open(map);
+                // map.setCenter(pos);
+            }, function() {
+                handleLocationError(true, infoWindow, map.getCenter());
+            });
+        } else {
+            handleLocationError(false, infoWindow, map.getCenter());
+        }
+    }
+
+    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+        'Erro: O serviço de geolocalização falhou.' :
+        'Erro: Seu navegador não suporta geolocalização.');
+        // infoWindow.open(map);
+    }
+
+    function detectBrowser() {
+        var useragent = navigator.userAgent;
+        var mapdiv = document.getElementById("map");
+
+        if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
+            mapdiv.style.width = '100%';
+            mapdiv.style.height = '100%';
+        } else {
+            mapdiv.style.width = '600px';
+            mapdiv.style.height = '800px';
+        }
+    }
 </script>

@@ -74,6 +74,9 @@
         $("html").removeClass("nav-open");
         mobile_menu_visible = 0;
 
+        $layer = $('<div class="close-layer"></div>');
+        $toggle = $('.navbar-toggle');
+
         setTimeout(function() {
             $layer.remove();
             $toggle.removeClass("toggled");
@@ -108,6 +111,9 @@
                           
                 $("html").removeClass("nav-open");
                 mobile_menu_visible = 0;
+
+                $layer = $('<div class="close-layer"></div>');
+                $toggle = $('.navbar-toggle');
 
                 setTimeout(function() {
                     $layer.remove();
@@ -156,7 +162,7 @@
     }
 
     // para inicializar o Google Maps
-    var map, infoWindow;
+    var map;
     var local = {lat: -12.939607, lng: -38.441598};
     
     function initMap() {
@@ -168,36 +174,8 @@
         var marker = new google.maps.Marker({
         position: local,
         map: map,
-        title: 'Local da festa'
+        title: 'Minha localização'
         });
-
-        infoWindow = new google.maps.InfoWindow;
-
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-                var pos = {
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude
-                };
-
-                infoWindow.setPosition(pos);
-                infoWindow.setContent('Você está aqui');
-                infoWindow.open(map);
-                // map.setCenter(pos);
-            }, function() {
-                handleLocationError(true, infoWindow, map.getCenter());
-            });
-        } else {
-            handleLocationError(false, infoWindow, map.getCenter());
-        }
-    }
-
-    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-        'Erro: O serviço de geolocalização falhou.' :
-        'Erro: Seu navegador não suporta geolocalização.');
-        // infoWindow.open(map);
     }
 
     function detectBrowser() {

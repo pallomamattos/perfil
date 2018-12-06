@@ -353,8 +353,8 @@
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-info btn-fill pull-right btn-rotate">
                                                 <span class="btn-label">
-	                                                <i class="ti-check"></i>
-	                                            </span>
+                                                    <i class="ti-check"></i>
+                                                </span>
                                                 Enviar mensagem
                                             </button>
                                             <div class="clearfix"></div>
@@ -364,16 +364,14 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="card fe-card-mapa">
-                                    <form id="loginFormValidation" action="" method="" novalidate="">
-                                        <div class="card-header text-left">
-                                            <h4 class="card-title text-info">
-                                                Local<i class="fa fa-map-marked-alt pull-right"></i>
-                                            </h4>
-                                        </div>
-                                        <div class="card-content">
-                                            <div id="map" class="fe-mapa"></div>
-                                        </div>
-                                    </form>
+                                    <div class="card-header text-left">
+                                        <h4 class="card-title text-info">
+                                            Local<i class="fa fa-map-marked-alt pull-right"></i>
+                                        </h4>
+                                    </div>
+                                    <div class="card-content">
+                                        <div id="map" class="fe-mapa"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

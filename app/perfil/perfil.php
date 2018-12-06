@@ -313,11 +313,12 @@
                     <section class="fe-perfil-section-contato" id="contato">
                         <div>
                             <h2>Contato</h2>
+                            <!-- mensagem -->
                             <div class="col-md-6">
                                 <div class="card fe-card-contato">
                                     <form id="fe-perfil-enviar-mensagem" action="" method="" novalidate="">
                                         <div class="card-header">
-                                            <h4 class="card-title">Mensagem<i class="ti-email pull-right"></i></h4>
+                                            <h4 class="card-title">Mensagem<i class="ti-email text-info pull-right"></i></h4>
                                         </div>
                                         <div class="card-content">
                                             <div class="form-group">
@@ -334,16 +335,6 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">
-                                                    Motivo do contato <star>*</star>
-                                                </label>
-                                                <select class="selectpicker" data-style="btn btn-info btn-block" title="Selecione" data-size="7">
-                                                    <option value="id">Trabalho</option>
-                                                    <option value="ms">Elogio</option>
-                                                    <option value="ms">Critica</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="control-label">
                                                     Mensagem <star>*</star>
                                                 </label>
                                                 <textarea class="form-control" name="mensagem-visitante" required="true" autocomplete="off" rows="4"></textarea>
@@ -353,7 +344,7 @@
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-info btn-fill pull-right btn-rotate">
                                                 <span class="btn-label">
-                                                    <i class="ti-check"></i>
+                                                    <i class="fas fa-sync fa-spin"></i>&nbsp;
                                                 </span>
                                                 Enviar mensagem
                                             </button>
@@ -362,12 +353,11 @@
                                     </form>
                                 </div>
                             </div>
+                            <!-- mapa -->
                             <div class="col-md-6">
                                 <div class="card fe-card-mapa">
-                                    <div class="card-header text-left">
-                                        <h4 class="card-title text-info">
-                                            Local<i class="fa fa-map-marked-alt pull-right"></i>
-                                        </h4>
+                                    <div class="card-header">
+                                        <h4 class="card-title text-info">Local<i class="fa fa-map-marked-alt text-success pull-right"></i></h4>
                                     </div>
                                     <div class="card-content">
                                         <div id="map" class="fe-mapa"></div>

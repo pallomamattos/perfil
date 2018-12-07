@@ -342,8 +342,8 @@
                                             <div class="category"><star>*</star> Campos obrigatórios</div>
                                         </div>
                                         <div class="card-footer">
-                                            <button type="submit" class="btn btn-info btn-fill pull-right btn-rotate">
-                                                <span class="btn-label">
+                                            <button type="submit" class="btn btn-info btn-fill pull-right btn-rotate btn-enviar-mensagem">
+                                                <span class="btn-label fe-btn-carregando fe-hide">
                                                     <i class="fas fa-sync fa-spin"></i>&nbsp;
                                                 </span>
                                                 Enviar mensagem

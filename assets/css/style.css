@@ -14,6 +14,10 @@ a:link {
     color: #EB5E28;
 }
 
+div.alert .close {
+    top: 15px !important;
+}
+
 .fe-hide {
     display: none;
 }
@@ -278,11 +282,13 @@ p.fe-frase-perfil i {
         margin: 0 0.1rem 0 0.1rem;
         padding-top: 5rem;
     }
-    
     section.fe-perfil-section-contato .fe-card-contato,
     section.fe-perfil-section-contato .fe-card-mapa {
         margin-left: -15px;
         margin-right: -15px;
+    }
+    div.alert {
+        top: 85px !important;
     }
 }
 

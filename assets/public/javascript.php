@@ -56,7 +56,7 @@
 <script src="../../assets/js/paper-dashboard.js"></script>
 
 <!-- Paper Dashboard PRO DEMO métodos, não incluí-lo no projeto -->
-<!-- <script src="../../assets/js/demo.js"></script> -->
+<script src="../../assets/js/demo.js"></script>
 
 <!-- javascript by Developer -->
 <script>
@@ -155,6 +155,28 @@
     $().ready(function(){
         $('#fe-perfil-enviar-mensagem').validate();
     });
+
+    // confirmação em mensagem para contato
+    $("#fe-perfil-enviar-mensagem").submit(function() {
+        if ($(this).valid()) {
+            $(".fe-btn-carregando").removeClass("fe-hide");
+            showNotification("top", "center", "ti-email", "Mensagem enviada com sucesso.");
+        }
+    });
+
+    // para noficicação
+    function showNotification(posicao, lado, icone, mensagem) {
+        $.notify({
+            icon: icone,
+            message: mensagem
+        },{
+            type: type[2],
+            placement: {
+                from: posicao,
+                align: lado
+            }
+        });
+    }
 
     // para os selects personalizados
     if($(".selectpicker").length != 0){

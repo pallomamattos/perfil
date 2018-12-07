@@ -215,6 +215,10 @@ p.fe-frase-perfil i {
     margin-top: 2px
 }
 
+.fe-social-icons {
+    margin-bottom: 5px;
+}
+
 .fe-social-icons a {
     display: inline-block;
     height: 2.3rem;
@@ -260,6 +264,10 @@ p.fe-frase-perfil i {
     height: 370px;
     margin-bottom: 5px;
     border-radius: 4px;
+}
+
+.fe-dev-contato {
+    margin: -35px;
 }
 
 @media only screen and (max-width: 1500px) {

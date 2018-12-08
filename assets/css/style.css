@@ -163,9 +163,10 @@ section.fe-perfil-section {
 
 section.fe-perfil-section-contato {
 	align-items: center;
-    margin: 0 1.7rem 0 1.7rem;
+    margin: 0 1.7rem -5.4rem 1.7rem;
+    -moz-margin: 0 1.7rem -3.4rem 1.7rem;
     min-height: 100vh;
-    padding-top: 11.9%;
+    padding-top: 4.4%;
 }
 
 section.fe-perfil-section-contato .fe-card-contato {
@@ -268,6 +269,18 @@ p.fe-frase-perfil i {
 
 .fe-dev-contato {
     margin: -35px;
+}
+
+.fe-dev-contato .card-content p a {
+    font-size: 11px;
+    padding: 3px 70px 0 0;
+    opacity: .5;
+}
+
+.fe-dev-contato .card-content p i {
+    font-size: 11px;
+    margin-top: 7px;
+    opacity: .5;
 }
 
 @media only screen and (max-width: 1500px) {

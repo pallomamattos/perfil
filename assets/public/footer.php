@@ -5,7 +5,7 @@
             &copy;
             <script>
                 document.write(new Date().getFullYear());
-            </script>, Desenvolvido por <a class="fe-pointer" onclick="modal.card('dev-contato')">Felipe Sales</a>
+            </script>, Desenvolvido por <a class="fe-pointer" onclick="modal.card('dev-contato')" data-toggle="tooltip" data-placement="top" title="Saiba mais">Felipe Sales</a>
         </div>
     </div>
 </footer>
@@ -18,20 +18,36 @@
                     html:`
                     <div class="card-user fe-dev-contato">
                         <div class="image">
-                            <img src="https://www.metro1.com.br/noticias/65380,national-geographic-cita-salvador-entre-os-28-lugares-para-visitar-em-2019-3.jpg" alt="..."/>
+                            <img src="https://media.giphy.com/media/Y6pDMTysYTQ2I/giphy.gif">
                         </div>
                         <div class="card-content">
                             <div class="author">
                                 <img class="avatar border-white" src="../../assets/img/perfil/usuario/felipe.png">
-                                <h4 class="card-title">Felipe Sales<br />
-                                    <a href="#"><small>@felipesales007</small></a>
-                                </h4>
+                                <p class="card-title">
+                                    Felipe Sales
+                                    <br>
+                                    <small>Desenvolvedor Front-End</small>
+                                    <br>
+                                </p>
                             </div>
                             <p class="description text-center">
-                                Ser desenvolvedor é uma viagem<br>
-                                onde a próxima parada é a<br>
-                                solução de um problema
+                                Ser desenvolvedor é uma viagem
+                                <br>
+                                onde a próxima parada é a
+                                <br>
+                                solução de um problema.
+                                <br>
+                                <a href="#" target="_blank" class="fe-cor-tema fe-autor-card-dev fe-right" data-toggle="tooltip" data-placement="left" title="Conheça o autor">- Thales Valentim</a>
+                                <i class="far fa-edit fe-cor-tema fe-right"></i>&ensp;
                             </p>
+                            <div>
+                                <a href="#" class="btn btn-wd btn-info">
+                                    <span class="btn-label">
+                                        <i class="ti-search"></i>
+                                    </span>
+                                    visualizar perfil
+                                </a>
+                            </div>
                             <br>
                         </div>
                         <hr>

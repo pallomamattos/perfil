@@ -5,7 +5,7 @@
             &copy;
             <script>
                 document.write(new Date().getFullYear());
-            </script>, Desenvolvido por <a class="fe-pointer" onclick="modal.card('dev-contato')" data-toggle="tooltip" data-placement="top" title="Saiba mais">Felipe Sales</a>
+            </script>, Desenvolvido por <a class="fe-cor-tema fe-pointer" onclick="modal.card('dev-contato')" data-toggle="tooltip" data-placement="top" title="Saiba mais">Felipe Sales</a>
         </div>
     </div>
 </footer>
@@ -37,7 +37,7 @@
                             <p class="description text-center">
                                 Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.
                                 <p>
-                                    <a href="#" target="_blank" class="fe-cor-tema fe-autor-card-dev fe-right" data-toggle="tooltip" data-placement="left" title="Conheça o autor">- Thales Valentim</a>
+                                    <a href="#" target="_blank" class="fe-cor-tema fe-right">- Thales Valentim</a>
                                     <i class="far fa-edit fe-cor-tema fe-right"></i>&ensp;
                                 </p>
                             </p>

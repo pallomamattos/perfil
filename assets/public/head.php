@@ -19,11 +19,14 @@
 <!-- Paper Dashboard core CSS -->
 <link href="../../assets/css/paper-dashboard.css" rel="stylesheet">
 
+<!-- Dashboard core CSS -->
+<link href="../../assets/css/dashboard.css" rel="stylesheet">
+
 <!-- Perfil core CSS -->
 <link href="../../assets/css/perfil.css" rel="stylesheet">
 
-<!-- CSS by Developer -->
-<link href="../../assets/css/style.css" rel="stylesheet">
+<!-- Global core CSS -->
+<link href="../../assets/css/global.css" rel="stylesheet">
 
 <!-- fontes e icones -->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">

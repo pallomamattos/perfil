@@ -118,7 +118,7 @@
                 setTimeout(function() {
                     $layer.remove();
                     $toggle.removeClass("toggled");
-                }, 1000);
+                }, 500);
             });
             return false;
 		});

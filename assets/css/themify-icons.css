@@ -20,6 +20,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+@-moz-document url-prefix() {
+    button i[class^="ti-"],
+    button i[class*=" ti-"] {
+        position: relative;
+        top: -1.7px;
+        left: -0.5px;
+    }
+}
+
 .ti-wand:before {
     content: "\e600";
 }

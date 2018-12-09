@@ -3,6 +3,13 @@ body,
     color: #868e96;
 }
 
+.sidebar[data-background-color="tema"]:after {
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: 2;
+}
+
 .sidebar[data-background-color="tema"] .user,
 .off-canvas-sidebar[data-background-color="tema"] .user {
     position: relative;
@@ -37,6 +44,7 @@ body,
 .sidebar[data-background-color="tema"] .nav li:not(.active)>a,
 .off-canvas-sidebar[data-background-color="tema"] .nav li:not(.active)>a {
     color: #FFFFFF;
+    text-shadow: rgba(0, 0, 0, 0.250) 0.1em 0.1em 0.1em;
 }
 
 .sidebar[data-background-color="tema"] .nav .divider,
@@ -47,6 +55,7 @@ body,
 .sidebar[data-background-color="tema"][data-active-color="tema"] .nav li.active>a,
 .off-canvas-sidebar[data-background-color="tema"][data-active-color="tema"] .nav li.active>a {
     opacity: 1;
+    text-shadow: rgba(0, 0, 0, 0.250) 0.1em 0.1em 0.1em;
 }
 
 .sidebar[data-background-color="tema"] .info a,

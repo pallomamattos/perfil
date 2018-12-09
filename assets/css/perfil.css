@@ -29,6 +29,7 @@
 .fe-letra-grande {
     font-size: 6rem;
     line-height: 5.5rem;
+    margin-bottom: -5px;
 }
 
 .fe-letra-media {
@@ -292,6 +293,9 @@ p.fe-frase-perfil i {
     }
     .fe-ponto-flex {
         display: none;
+    }
+    .fe-social-icons {
+        text-align: center;
     }
     .fe-social-icons a {
         margin-right: .06rem;

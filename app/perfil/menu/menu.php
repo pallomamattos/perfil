@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="fe-nav-link fe-scroll-trigger" href="#contato">
+                    <a class="fe-nav-link fe-scroll-trigger fe-focus-mensagem-nome" href="#contato">
                         <p>Contato</p>
                     </a>
                 </li>

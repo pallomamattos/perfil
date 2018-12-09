@@ -19,7 +19,7 @@
             </p>
             <p>
                 <i class="fas fa-at fe-cor-tema"></i>&ensp;
-                <a href="#contato" class="fe-cor-tema fe-texto-lower fe-scroll-trigger" data-toggle="tooltip" data-placement="right" title="Enviar uma mensagem">
+                <a href="#contato" class="fe-cor-tema fe-texto-lower fe-scroll-trigger fe-focus-mensagem-nome" data-toggle="tooltip" data-placement="right" title="Enviar uma mensagem">
                     felipesales007@hotmail.com&ensp;
                 </a>
             </p>

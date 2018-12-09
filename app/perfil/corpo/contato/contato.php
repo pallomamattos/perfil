@@ -13,7 +13,7 @@
                             <label class="control-label">
                                 Seu nome <star>*</star>
                             </label>
-                            <input class="form-control" name="nome-visitante" type="text" required="true" autocomplete="on">
+                            <input id="nome-visitante" class="form-control" name="nome-visitante" type="text" required="true" autocomplete="on">
                         </div>
                         <div class="form-group">
                             <label class="control-label">

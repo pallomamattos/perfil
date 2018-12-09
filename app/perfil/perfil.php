@@ -377,5 +377,16 @@
 
 <!-- importação do javascript -->
 <?php include_once("../../assets/public/javascript.php"); ?>
-
+<script>
+    window.onload = function() {
+        $(document).ready(function() {
+            if(window.location.href.indexOf("/perfil/perfil") > -1) {
+                history.pushState("", document.title, window.location.pathname + window.location.search);
+                setTimeout(function() {
+                    scrollTo(0, 0);
+                }, 1);
+            }
+        });
+    }
+</script>
 </html>

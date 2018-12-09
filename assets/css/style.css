@@ -169,6 +169,13 @@ section.fe-perfil-section-contato {
     padding-top: 4.4%;
 }
 
+@-moz-document url-prefix() {
+    section.fe-perfil-section-contato {
+        padding-top: 4.1%;
+        margin-bottom: -6.2%;
+    }
+}
+
 section.fe-perfil-section-contato .fe-card-contato {
     margin-left: -15px;
 }
@@ -271,15 +278,20 @@ p.fe-frase-perfil i {
     margin: -35px;
 }
 
+.fe-dev-contato .card-content .description {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 .fe-dev-contato .card-content p a {
     font-size: 11px;
-    padding: 3px 70px 0 0;
+    padding: 0 70px 0 0;
     opacity: .5;
 }
 
 .fe-dev-contato .card-content p i {
     font-size: 11px;
-    margin-top: 7px;
+    margin-top: 5px;
     opacity: .5;
 }
 

@@ -28,6 +28,9 @@
 <!-- Global core CSS -->
 <link href="../../assets/css/global.css" rel="stylesheet">
 
+<!-- tema core CSS -->
+<link href="../../assets/public/tema.php" rel="stylesheet">
+
 <!-- fontes e icones -->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">

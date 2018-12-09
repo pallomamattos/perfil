@@ -251,6 +251,22 @@
             }
         }
     }
+    &[data-background-color="tema"] {
+        @include sidebar-background-color($tema-background-color, $white-color);
+        &[data-active-color="tema"] {
+            @include sidebar-active-color( lighten($tema-color, 10%));
+        }
+        .info {
+            a {
+                color: $white-color;
+            }
+        }
+        .user {
+            .photo {
+                border-color: rgba($white-color, 0.3);
+            }
+        }
+    }
     &[data-active-color="primary"] {
         @include sidebar-active-color($primary-color);
     }
@@ -265,6 +281,9 @@
     }
     &[data-active-color="danger"] {
         @include sidebar-active-color($danger-color);
+    }
+    &[data-active-color="tema"] {
+        @include sidebar-active-color($tema-color);
     }
 }
 

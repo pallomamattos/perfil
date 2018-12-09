@@ -1,4 +1,4 @@
-<div class="sidebar" data-background-color="brown" data-active-color="danger">
+<div class="sidebar" data-background-color="tema" data-active-color="tema">
     <div class="logo fe-remove-logo"></div>
     <!-- menu -->
     <div class="sidebar-wrapper fe-ajuste-wrapper">

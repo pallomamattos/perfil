@@ -1,7 +1,7 @@
 <section class="fe-perfil-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
     <div class="my-auto">
         <h2 class="fe-letra-quadrada fe-letra-media mb-5">Skills</h2>
-
+        <br><br>
         <div class="fe-letra-secundaria mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline fe-dev-icons">
             <li class="list-inline-item">

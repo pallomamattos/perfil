@@ -1,6 +1,6 @@
 <section class="fe-perfil-section" id="experiencias">
     <div>
-        <h2 class="fe-letra-quadrada fe-letra-media">Experience</h2>
+        <h2 class="fe-letra-quadrada fe-letra-media">Experience</h2><br>
 
         
                 <h3 class="fe-letra-quadrada fe-letra-pequena">Senior Web Developer</h3>

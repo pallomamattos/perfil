@@ -1,25 +1,22 @@
-<section class="fe-perfil-section p-3 p-lg-5 d-flex flex-column" id="educacao">
-    <div class="my-auto">
-        <h2 class="fe-letra-quadrada fe-letra-media mb-5">Education</h2>
-
-        <div class="perfil-item d-flex flex-column flex-md-row mb-5">
-                <h3 class="fe-letra-quadrada fe-letra-pequena mb-0">University of Colorado Boulder</h3>
-                <div class="fe-letra-secundaria">Bachelor of Science</div>
-                <div>Computer Science - Web Development Track</div>
-                <p>GPA: 3.23</p>
-            <div class="perfil-date text-md-right">
-                <span class="fe-cor-tema">August 2006 - May 2010</span>
-            </div>
+<section class="fe-perfil-section" id="educacao">
+    <div>
+        <h2 class="fe-letra-quadrada fe-letra-media">Educação</h2>
+        <br>
+        <div class="perfil-item">
+            <h3 class="fe-letra-quadrada fe-letra-pequena">Universidade Salvador - UNIFACS</h3>
+            <div class="fe-letra-secundaria">Bacharel em Sistemas de Informação</div>
+            <br>
+            <div class="fe-cor-tema fe-right"><i class="far fa-calendar-alt"></i>&ensp;Agosto de 2014 - Julho de 2018</div>
+            <br><br><br>
         </div>
 
-        <div class="perfil-item d-flex flex-column flex-md-row">
-                <h3 class="fe-letra-quadrada fe-letra-pequena mb-0">James Buchanan High School</h3>
-                <div class="fe-letra-secundaria mb-3">Technology Magnet Program</div>
-                <p>GPA: 3.56</p>
-            </div>
-            <div class="perfil-date text-md-right">
-                <span class="fe-cor-tema">August 2002 - May 2006</span>
-            </div>
+        <div class="perfil-item">
+            <h3 class="fe-letra-quadrada fe-letra-pequena">Colégio Estadual de Conceição do Jacuípe</h3>
+            <div class="fe-letra-secundaria">Ensino médio</div>
+            <br>
+            <div class="fe-cor-tema fe-right"><i class="far fa-calendar-alt"></i>&ensp;Fevereiro de 2008 - Dezembro de 2011</div>
+            <br><br><br>
+        </div>
     </div>
 </section>
 <hr class="fe-hr">

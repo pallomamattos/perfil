@@ -4,7 +4,7 @@
         <h1 class="fe-letra-quadrada fe-letra-grande"><span class="fe-cor-tema fe-texto-flex-mobile">Felipe</span> Sales</h1>
         <!-- profissão -->
         <div class="fe-letra-quadrada fe-letra-pequena">Desenvolvedor Front-End</div>
-        <br>
+        <br><br>
         <!-- endereço -->
         <p class="fe-texto-upper">
             <i class="fas fa-map-marked-alt"></i>&ensp;
@@ -24,7 +24,7 @@
                 </a>
             </p>
         </p>
-        <br>
+        <br><br>
         <!-- frase -->
         <p class="fe-frase-perfil">
             Por mais que a ciência evolua e que a tecnologia avance jamais ela vai decifrar a mente humana, pois cada cabeça é um mundo e cada ser humano uma história, jamais caberá numa tese ou num fundamento. Isso faz da humanidade e seu imaginário imensamente complexos e hierárquicos.

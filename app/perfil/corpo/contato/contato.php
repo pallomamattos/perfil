@@ -1,6 +1,7 @@
 <section class="fe-perfil-section-contato" id="contato">
     <div>
         <h2 class="fe-letra-quadrada fe-letra-media">Contato</h2>
+        <br><br>
         <!-- mensagem -->
         <div class="col-md-6">
             <div class="card fe-card-contato">

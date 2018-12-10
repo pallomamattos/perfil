@@ -19,7 +19,7 @@
             </p>
             <p>
                 <i class="fas fa-at fe-cor-tema"></i>&ensp;
-                <a href="#contato" class="fe-cor-tema fe-texto-lower fe-scroll-trigger fe-focus-mensagem-nome" data-toggle="tooltip" data-placement="right" title="Enviar uma mensagem">
+                <a href="#contato" class="fe-cor-tema fe-texto-lower fe-scroll-trigger fe-focus-mensagem-nome" data-toggle="tooltip" data-placement="top" title="Enviar uma mensagem">
                     felipesales007@hotmail.com&ensp;
                 </a>
             </p>
@@ -52,7 +52,7 @@
             <a title="YouTube" href="https://www.youtube.com/user/FelipeSales007/videos" target="_blank">
                 <i class="fab fa-youtube"></i>
             </a>
-            <a title="E-mail" href="#contato" class="fe-scroll-trigger">
+            <a title="E-mail" href="#contato" class="fe-scroll-trigger fe-focus-mensagem-nome">
                 <i class="fas fa-envelope"></i>
             </a>
         </div>

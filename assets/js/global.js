@@ -4,7 +4,7 @@ $(".fe-fechar-menu-mobile").click(function() {
     mobile_menu_visible = 0;
 
     $layer = $('<div class="close-layer"></div>');
-    $toggle = $('.navbar-toggle');
+    $toggle = $(".navbar-toggle");
 
     setTimeout(function() {
         $layer.remove();
@@ -38,7 +38,7 @@ $(".copiar").click(function() {
 
 // validação
 $().ready(function() {
-    $('#fe-perfil-enviar-mensagem').validate();
+    $("#fe-perfil-enviar-mensagem").validate();
 });
 
 // para noficicação
@@ -68,7 +68,12 @@ $().ready(function() {
 
 // para quando a tela esta em carregamento
 var i = setInterval(function() {
-    $('html,body').animate({scrollTop: 0},'fast');
+    var url = window.location;
+    if (url.href.indexOf("/perfil/perfil") > -1) {
+        history.pushState("", document.title, url.pathname + url.search);
+        $("html, body").animate({scrollTop: 0}, "fast");
+    }
+
     clearInterval(i);
     $(".fe-carregando").fadeOut("slow");
     $(".fe-carregado").fadeIn("slow");

@@ -1,6 +1,6 @@
 perfil = {
     modal: function(type) {
-        if (type == 'rodape-dev-contato') {
+        if (type == "rodape-dev-contato") {
             swal({
                 html:`
                 <div class="card-user fe-dev-contato">

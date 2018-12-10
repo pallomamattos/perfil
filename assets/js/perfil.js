@@ -16,7 +16,7 @@ $(document).ready(function() {
             mobile_menu_visible = 0;
 
             $layer = $('<div class="close-layer"></div>');
-            $toggle = $('.navbar-toggle');
+            $toggle = $(".navbar-toggle");
 
             setTimeout(function() {
                 $layer.remove();
@@ -53,15 +53,15 @@ function initMap() {
     var map;
     var local = {lat: -12.939607, lng: -38.441598};
 
-    map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById("map"), {
         center: local,
         zoom: 13,
     });
 
-    var marker = new google.maps.Marker({
-    position: local,
-    map: map,
-    title: 'Minha localização'
+    new google.maps.Marker({
+        position: local,
+        map: map,
+        title: "Minha localização"
     });
 }
 

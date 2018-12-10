@@ -5,7 +5,7 @@
         <div class="fe-center-y">
             <!-- foto do perfil -->
             <div class="fe-zoom-out">
-                <img class="fe-foto fe-center-x" src="../../assets/img/perfil/usuario/felipe.png">
+                <div class="fe-foto fe-center-x"></div>
             </div>
             <!-- menu do perfil -->
             <ul class="nav fe-fechar-menu-mobile">

@@ -1,9 +1,19 @@
 <?php
     header("Content-type: text/css");
 
-    $image = "https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg";
-    if ($image != "") {
-        $image_tema  = "linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('$image')";
+    $foto_temp = "../../assets/img/perfil/usuario/felipe.png";
+    if ($foto_temp != "") {
+        $foto  = "url('$foto_temp')";
+    }
+
+    $imagem_lateral_temp = "https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg";
+    if ($imagem_lateral_temp != "") {
+        $imagem_lateral  = "linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('$imagem_lateral_temp')";
+    }
+
+    $imagem_rodape_temp = "https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg";
+    if ($imagem_rodape_temp != "") {
+        $imagem_rodape  = "url('$imagem_rodape_temp')";
     }
 
     $cor_tema  = "#66615b";
@@ -13,15 +23,21 @@
     $cor_barra = "#f4f3ef";
 ?>
 
+.fe-foto {
+    background-image: <?php echo $foto; ?>;
+}
+
 .sidebar[data-background-color="tema"]:after,
 .sidebar[data-background-color="tema"]:before,
 .off-canvas-sidebar[data-background-color="tema"]:after,
 .off-canvas-sidebar[data-background-color="tema"]:before {
     background-color: <?php echo $cor_tema; ?>;
+    background-image: <?php echo $imagem_lateral; ?>;
 }
 
-.sidebar[data-background-color="tema"]:after {
-  background-image: <?php echo $image_tema; ?>;
+.fe-background-rodape {
+    background-color: <?php echo $cor_tema; ?>;
+    background-image: <?php echo $imagem_rodape; ?>;
 }
 
 .sidebar[data-background-color="tema"][data-active-color="tema"] .nav li.active>a,

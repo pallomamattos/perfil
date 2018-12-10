@@ -6,7 +6,7 @@ perfil = {
                 <div class="card-user fe-dev-contato">
                     <!-- foto -->
                     <div class="image">
-                        <img src="https://media.giphy.com/media/Y6pDMTysYTQ2I/giphy.gif">
+                        <div class="fe-background-rodape"></div>
                     </div>
                     <!-- corpo -->
                     <div class="card-content">

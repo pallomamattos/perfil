@@ -1,7 +1,7 @@
 <section class="fe-perfil-section" id="sobre">
     <div>
         <!-- nome -->
-        <h1 class="fe-letra-quadrada fe-letra-grande"><span class="fe-cor-tema fe-texto-flex-mobile">Felipe</span> Sales</h1>
+        <h1 class="fe-letra-quadrada fe-letra-grande"><span class="fe-cor-tema fe-texto-flex-mobile">Felipe</span> Sales</h1>
         <!-- profissão -->
         <div class="fe-letra-quadrada fe-letra-pequena">Desenvolvedor Front-End</div>
         <br>

@@ -65,18 +65,6 @@ function initMap() {
     });
 }
 
-// para inicializar página no topo
-window.onload = function() {
-    $(document).ready(function() {
-        if(window.location.href.indexOf("/perfil/perfil") > -1) {
-            history.pushState("", document.title, window.location.pathname + window.location.search);
-            setTimeout(function() {
-                scrollTo(0, 0);
-            }, 1);
-        }
-    });
-}
-
 // para focar no input de enviar mensagem
 $(".fe-focus-mensagem-nome").click(function() {
     setTimeout(function() {

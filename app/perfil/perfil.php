@@ -8,14 +8,20 @@
 </head>
 
 <body class="fe-body-perfil">
-    <!-- menu lateral -->
-    <?php include_once("menu/menu.php"); ?>
+    <!-- carregando -->
+    <div class="fe-carregando"></div>
 
-    <!-- barra -->
-    <?php include_once("barra/barra.php"); ?>
+    <!-- carregado -->
+    <div class="fe-carregado">
+        <!-- menu lateral -->
+        <?php include_once("menu/menu.php"); ?>
 
-    <!-- corpo -->
-    <?php include_once("corpo/corpo.php"); ?>
+        <!-- barra -->
+        <?php include_once("barra/barra.php"); ?>
+
+        <!-- corpo -->
+        <?php include_once("corpo/corpo.php"); ?>
+    </div>
 </body>
 
 <!-- javascript -->

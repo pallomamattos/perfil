@@ -10,7 +10,7 @@
     $cor_link  = "#ef8157";  
     $cor_foto  = "#887d6e";  
     $cor_a     = "#824027";
-    $cor_barra = "#f4efef";
+    $cor_barra = "#f4f3ef";
 ?>
 
 .sidebar[data-background-color="tema"]:after,

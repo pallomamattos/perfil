@@ -65,3 +65,11 @@ $().ready(function() {
     var ano = new Date();
     document.getElementById("fe-ano-rodape").innerHTML = ano.getFullYear();
 });
+
+// para quando a tela esta em carregamento
+var i = setInterval(function() {
+    $('html,body').animate({scrollTop: 0},'fast');
+    clearInterval(i);
+    $(".fe-carregando").fadeOut("slow");
+    $(".fe-carregado").fadeIn("slow");
+});

@@ -9,7 +9,12 @@
                 <span class="icon-bar bar3"></span>
             </button>
             <div class="navbar-brand fe-logo-nome">
-                <a class="fe-cor-tema fe-scroll-trigger" href="#sobre">Felipe Sales</a>
+                <a class="fe-cor-tema fe-scroll-trigger" href="#sobre">
+                    <div class="fe-zoom-out fe-left">
+                        <div class="fe-foto-barra"></div>
+                    </div>
+                    Felipe
+                </a>
             </div>
         </div>
     </div>

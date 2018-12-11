@@ -23,7 +23,8 @@
     $cor_barra = "#f4f3ef";
 ?>
 
-.fe-foto {
+.fe-foto,
+.fe-foto-barra {
     background-image: <?php echo $foto; ?>;
 }
 

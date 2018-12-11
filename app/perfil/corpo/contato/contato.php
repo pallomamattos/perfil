@@ -1,5 +1,5 @@
 <section class="fe-perfil-section-contato" id="contato">
-    <div class="fe-center-y">
+    <div>
         <h2 class="fe-letra-quadrada fe-letra-media">Contato</h2>
         <br><br>
         <!-- mensagem -->

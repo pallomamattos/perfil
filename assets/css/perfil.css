@@ -30,6 +30,7 @@
     font-size: 6rem;
     line-height: 5.5rem;
     margin-bottom: -5px;
+    margin-left: -3px;
 }
 
 .fe-letra-media {
@@ -78,6 +79,7 @@
 
 .fe-main-perfil {
     margin-top: -95px;
+    overflow: hidden !important;
 }
 
 .fe-nav-link {
@@ -111,23 +113,18 @@ li:not(.active) .fe-nav-link:hover p {
 section.fe-perfil-section {
     display: flex;
 	align-items: center;
-    margin: 0 30% 0 1.7rem;
+    margin: 0 30% 0 2rem !important;
     min-height: 100vh;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 section.fe-perfil-section-contato {
 	align-items: center;
-    margin: 0 1.7rem -5.4rem 1.7rem;
-    -moz-margin: 0 1.7rem -3.4rem 1.7rem;
+    margin: 0 1.7rem -5.4rem 2rem !important;
     min-height: 100vh;
-    padding-top: 9.8%;
-}
-
-@-moz-document url-prefix() {
-    section.fe-perfil-section-contato {
-        padding-top: 9.1%;
-        margin-bottom: -71px;
-    }
+    padding-top: 60px !important;
+    margin-bottom: -71px !important;
 }
 
 section.fe-perfil-section-contato .fe-card-contato {

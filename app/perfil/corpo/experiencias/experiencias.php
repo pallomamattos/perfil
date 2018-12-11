@@ -1,46 +1,50 @@
 <section class="fe-perfil-section" id="experiencias">
     <div>
-        <h2 class="fe-letra-quadrada fe-letra-media">Experience</h2><br>
+        <h2 class="fe-letra-quadrada fe-letra-media">Experiência</h2>
+        <br>
+        <h3 class="fe-letra-quadrada fe-letra-pequena">
+            Desenvolvedor Front-End
+            <h6 class="fe-cor-tema fe-right fe-data-perfil"><i class="far fa-calendar-alt"></i>&ensp;Maio de 2018 - atual</h6>
+            <h6 class="fe-letra-secundaria fe-emp-perfil">Maxxmobi</h6>
+        </h3>
+        <p>
+            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
+            User generated content in real-time will have multiple touchpoints for offshoring.
+        </p>
+        <br><br><br>
 
-        
-                <h3 class="fe-letra-quadrada fe-letra-pequena">Senior Web Developer</h3>
-                <div class="fe-letra-secundaria">Intelitec Solutions</div>
-                <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-                    User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            
-                <span class="fe-cor-tema">March 2013 - Present</span>
+        <h3 class="fe-letra-quadrada fe-letra-pequena">
+            Auxiliar Técnico de Informática
+            <h6 class="fe-cor-tema fe-right fe-data-perfil"><i class="far fa-calendar-alt"></i>&ensp;Março de 2017 - Abril de 2018</h6>
+            <h6 class="fe-letra-secundaria fe-emp-perfil">Hospital Santo Amaro</h6>
+        </h3>
+        <p>
+            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
+            User generated content in real-time will have multiple touchpoints for offshoring.
+        </p>
+        <br><br><br>
 
-        <div class="perfil-item d-flex flex-column flex-md-row mb-5">
-                <h3 class="fe-letra-quadrada fe-letra-pequena mb-0">Web Developer</h3>
-                <div class="fe-letra-secundaria mb-3">Intelitec Solutions</div>
-                <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close
-                    the loop on focusing solely on the bottom line.</p>
-            <div class="perfil-date text-md-right">
-                <span class="fe-cor-tema">December 2011 - March 2013</span>
-            </div>
-        </div>
+        <h3 class="fe-letra-quadrada fe-letra-pequena">
+            Estagiário de T.I
+            <h6 class="fe-cor-tema fe-right fe-data-perfil"><i class="far fa-calendar-alt"></i>&ensp;Dezembro de 2014 - Dezembro de 2016</h6>
+            <h6 class="fe-letra-secundaria fe-emp-perfil">Hospital São Rafael</h6>
+        </h3>
+        <p>
+            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
+            User generated content in real-time will have multiple touchpoints for offshoring.
+        </p>
+        <br><br><br>
 
-        <div class="perfil-item d-flex flex-column flex-md-row mb-5">
-            
-                <h3 class="fe-letra-quadrada fe-letra-pequena mb-0">Junior Web Designer</h3>
-                <div class="fe-letra-secundaria mb-3">Shout! Media Productions</div>
-                <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the
-                    start-up mentality to derive convergence on cross-platform integration.</p>
-            <div class="perfil-date text-md-right">
-                <span class="fe-cor-tema">July 2010 - December 2011</span>
-            </div>
-        </div>
-
-        <div class="perfil-item d-flex flex-column flex-md-row">
-                <h3 class="fe-letra-quadrada fe-letra-pequena mb-0">Web Design Intern</h3>
-                <div class="fe-letra-secundaria mb-3">Shout! Media Productions</div>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            <div class="perfil-date text-md-right">
-                <span class="fe-cor-tema">September 2008 - June 2010</span>
-            </div>
-        </div>
-
+        <h3 class="fe-letra-quadrada fe-letra-pequena">
+            Estagiário de Informática
+            <h6 class="fe-cor-tema fe-right fe-data-perfil"><i class="far fa-calendar-alt"></i>&ensp;Fevereiro de 2014 - Novembro de 2014</h6>
+            <h6 class="fe-letra-secundaria fe-emp-perfil">Faculdade Batista Brasileira</h6>
+        </h3>
+        <p>
+            Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
+            User generated content in real-time will have multiple touchpoints for offshoring.
+        </p>
+        <br><br><br>
     </div>
-
 </section>
 <hr class="fe-hr">

@@ -1,6 +1,6 @@
 - sobre: ok
 
-- experiencia: falta 2
+- experiencia: falta 2 - preencher descricao e colocar limitador de 3 experiencia com collapse
 
 - educacao: ok
 
@@ -9,3 +9,7 @@
 - potifolio: falta (por ultimo, mais dificil) 4
 
 - contato: ok
+
+
+
+--- testar responsividade

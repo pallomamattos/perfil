@@ -52,6 +52,10 @@
     display: none;
 }
 
+.fe-card-portfolio-mostrar {
+    display: none;
+}
+
 .fe-data-perfil {
     position: absolute;
     margin-top: -40px;

@@ -12,9 +12,15 @@
 
 
 
---- testar responsividade
 
 --- mudar icone para um generico
 
 
 --- nas img colocar alt=" "
+
+
+
+---- new card esta deixando o rodape em mobile com scroll x
+
+
+----- card de portfolio esta um abaixo do outro, faze-lo em linha

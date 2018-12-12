@@ -73,7 +73,7 @@ $(".fe-focus-mensagem-nome").click(function() {
 });
 
 // para mostrar mais experiências
-$(function () {
+$(function() {
     $(".fe-exp-perfil").slice(0, 2).show();
     $("#fe-mostrar-exp").on('click', function(e) {
         e.preventDefault();
@@ -81,6 +81,22 @@ $(function () {
         $(".fe-exp-perfil:hidden").slice(0, 1).slideDown();
         if ($(".fe-exp-perfil:hidden").length == 0) {
             $("#fe-mostrar-exp").fadeOut('slow');
+        }
+        $('html, body').animate({
+            scrollTop: $(this).offset().top - 460
+        }, 600);
+    });
+});
+
+// para mostrar mais portfólio
+$(function() {
+    $(".fe-card-portfolio-mostrar").slice(0, 2).show();
+    $("#fe-mostrar-portfolio").on('click', function(e) {
+        e.preventDefault();
+
+        $(".fe-card-portfolio-mostrar:hidden").slice(0, 1).slideDown();
+        if ($(".fe-card-portfolio-mostrar:hidden").length == 0) {
+            $("#fe-mostrar-portfolio").fadeOut('slow');
         }
         $('html, body').animate({
             scrollTop: $(this).offset().top - 460

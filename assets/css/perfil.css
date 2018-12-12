@@ -48,6 +48,10 @@
     font-size: 1.5rem;
 }
 
+.fe-exp-perfil {
+    display: none;
+}
+
 .fe-data-perfil {
     position: absolute;
     margin-top: -40px;
@@ -243,7 +247,12 @@ p.fe-frase-perfil i {
 }
 
 .fe-dev-icons {
-    font-size: 3rem;
+    font-size: 2.3rem;
+}
+
+.fe-cor-cinza {
+    color: #868e96;
+    transition: all .5s ease-in-out;
 }
 
 .fe-mapa {

@@ -71,3 +71,19 @@ $(".fe-focus-mensagem-nome").click(function() {
         document.getElementById("nome-visitante").focus();
     }, 1500);
 });
+
+// para mostrar mais experiências
+$(function () {
+    $(".fe-exp-perfil").slice(0, 2).show();
+    $("#fe-mostrar-exp").on('click', function(e) {
+        e.preventDefault();
+
+        $(".fe-exp-perfil:hidden").slice(0, 1).slideDown();
+        if ($(".fe-exp-perfil:hidden").length == 0) {
+            $("#fe-mostrar-exp").fadeOut('slow');
+        }
+        $('html, body').animate({
+            scrollTop: $(this).offset().top - 460
+        }, 600);
+    });
+});

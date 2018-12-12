@@ -1,3 +1,5 @@
+<?php $cor_tema  = "#66615b"; ?>
+
 <!-- HTML5 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
@@ -5,9 +7,9 @@
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 
 <!-- cor da barra do navegador em mobile -->
-<meta name="theme-color" content="#075e55">
-<meta name="apple-mobile-web-app-status-bar-style" content="#075e55">
-<meta name="msapplication-navbutton-color" content="#075e55">
+<meta name="theme-color" content="<?php echo $cor_tema; ?>">
+<meta name="apple-mobile-web-app-status-bar-style" content="<?php echo $cor_tema; ?>">
+<meta name="msapplication-navbutton-color" content="<?php echo $cor_tema; ?>">
 
 <!-- icone do site -->
 <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/dashboard/favicon.png">

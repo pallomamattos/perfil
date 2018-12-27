@@ -5,7 +5,7 @@
 
     .fe-card-portfolio {
         padding: 20px;
-        width: 15em;
+        width: 75%;
         background-color: #ffffff;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         cursor: pointer;
@@ -119,14 +119,14 @@
     }
 </style>
 
-<section class="fe-perfil-section" id="portfolio">
+<section class="fe-perfil-section-contato" id="portfolio">
     <div>
         <h2 class="fe-letra-quadrada fe-letra-media">Portfólio</h2>
         <br><br>
         
         <div class="fe-card-portfolio-ajuste">
         
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -144,7 +144,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -162,7 +162,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -180,7 +180,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -198,7 +198,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -216,7 +216,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -234,7 +234,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -252,7 +252,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -270,7 +270,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -288,7 +288,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -306,7 +306,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -324,7 +324,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -342,7 +342,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -360,7 +360,7 @@
                 </div>
             </div>
             
-            <div class="fe-card-portfolio-mostrar">
+            <div class="col-sm-4 col-lg-3 fe-card-portfolio-mostrar">
                 <div class="fe-card-portfolio">
                     <header class="fe-card-portfolio-top">
                         <img class="fe-card-portfolio-icon" src="http://www.edlainezamora.com.br/images/tecnologia/html.png" alt=" ">
@@ -377,8 +377,11 @@
                     </div>
                 </div>
             </div>
+
         </div>
-        <button id="fe-mostrar-portfolio" class="btn btn-info fe-center-x">Mostrar mais</button>
     </div>
 </section>
+
+<button id="fe-mostrar-portfolio" class="btn btn-info fe-center-x">Mostrar mais</button>
+
 <hr class="fe-hr">

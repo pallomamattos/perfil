@@ -90,11 +90,11 @@ $(function() {
 
 // para mostrar mais portfólio
 $(function() {
-    $(".fe-card-portfolio-mostrar").slice(0, 2).show();
+    $(".fe-card-portfolio-mostrar").slice(0, 8).show();
     $("#fe-mostrar-portfolio").on('click', function(e) {
         e.preventDefault();
 
-        $(".fe-card-portfolio-mostrar:hidden").slice(0, 1).slideDown();
+        $(".fe-card-portfolio-mostrar:hidden").slice(0, 4).slideDown();
         if ($(".fe-card-portfolio-mostrar:hidden").length == 0) {
             $("#fe-mostrar-portfolio").fadeOut('slow');
         }
